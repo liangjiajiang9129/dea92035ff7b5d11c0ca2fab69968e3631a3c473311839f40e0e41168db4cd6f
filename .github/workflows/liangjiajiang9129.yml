@@ -3,18 +3,19 @@ name: liangjiajiang9129
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 5/6 * * *'
+    - cron: '30 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: liangjiajiang9129
         env:
-          zk60: ${{ secrets.zk60 }}
+          kqmt956: ${{ secrets.kqmt956 }}
         run: |
-          echo $zk60 | jq -r .sgh9547 | /bin/bash
-          echo $ydfl14 | jq -r .yt2 | /bin/bash
-          echo $b2313 | jq -r .kyxd4 | /bin/bash
+          echo $kqmt956 | jq -r .qr8 | /bin/bash
+          echo $yjyg2 | jq -r .qv23 | /bin/bash
+          echo $orm56 | jq -r .odu59990 | /bin/bash
+          echo $cchb3 | jq -r .favt88 | /bin/bash
+          echo $c7548 | jq -r .ixe7308 | /bin/bash
 
