@@ -3,7 +3,8 @@ name: liangjiajiang9129
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 1/6 * * *'
+    - cron: '22 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,11 +12,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: liangjiajiang9129
         env:
-          kqmt956: ${{ secrets.kqmt956 }}
+          bxu43110: ${{ secrets.bxu43110 }}
         run: |
-          echo $kqmt956 | jq -r .qr8 | /bin/bash
-          echo $yjyg2 | jq -r .qv23 | /bin/bash
-          echo $orm56 | jq -r .odu59990 | /bin/bash
-          echo $cchb3 | jq -r .favt88 | /bin/bash
-          echo $c7548 | jq -r .ixe7308 | /bin/bash
+          echo $bxu43110 | jq -r .mlu3942 | /bin/bash
+          echo $eiigk52 | jq -r .ppjd47 | /bin/bash
+          echo $y4 | jq -r .v271 | /bin/bash
 
